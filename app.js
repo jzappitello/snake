@@ -1,6 +1,6 @@
-// alert(
-//     "Don't have smol screenz"
-// )
+alert(
+    "Don't have smol screenz"
+)
 
 var snake = [{ x:375, y:375 }]
 const startButton = document.querySelector("#strt")
