@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Slithery Snake</title>
+    <title>Snake</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
 </head>
 <body>
+    <h1>Sneaky Snake</h1>
+    <h1>Score: <span id="score">0</span></h1>
     <main>
-
+      <canvas id="gameBoard" width="750" height="750"></canvas>
     </main>
+    <h2 id="strt">Press WASD or click <button id="strt" type="button">STRT</button></h2>
+    <h1 id="gameOver">GAME OVER!!!</h1>
+    <button id="again" type="button" onclick="location.reload()">Play again</button>
 </body>
 </html>
